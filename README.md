@@ -2,7 +2,7 @@
 
 ## Human Resource Automation and Management System
 
-**HARMONY (Human Resource Automation and Management System)** is an integrated Human Resource platform designed to automate and optimize workforce operations. The system streamlines recruitment, hiring, interview scheduling, employee management, training coordination, and workforce administration while ensuring efficient communication and process compliance.
+**HARMONY (Human Resource Automation and Management System)** is an integrated Human Resource platform designed to automate and optimize workforce operations. The system streamlines recruitment, hiring, interview scheduling, employee management, training coordination, and workforce administration while ensuring efficient communication and process compliance
 
 HARMONY helps organizations build a productive, engaged, and high-performing workforce through intelligent automation and decision support.
 
