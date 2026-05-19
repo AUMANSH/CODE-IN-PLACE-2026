@@ -12,7 +12,7 @@ from io import BytesIO
 
 # --- CONFIGURATION ---
 # 1. CENTRAL OUTPUT DIRECTORY
-OUTPUT_DIRECTORY = r"C:\Users\gupta\OneDrive - DYNE TECH AI PRIVATE LIMITED\Automated Interview Scheduling System - Version 2"
+OUTPUT_DIRECTORY = r"C:\Users\gupta\....."
 
 if not os.path.exists(OUTPUT_DIRECTORY):
     os.makedirs(OUTPUT_DIRECTORY)
