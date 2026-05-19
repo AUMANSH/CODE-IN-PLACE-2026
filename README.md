@@ -1,87 +1,224 @@
-# CODE-IN-PLACE-2026 HARMONY
-HARMONY (Human Resource Automation and Management System) is an integrated human resource management platform designed to streamline and optimize workforce operations. It supports essential HR functions including recruitment, hiring, interview scheduling, employee management, training coordination, and workforce administration while ensuring efficient communication and compliance. The system aims to create a productive, engaged, and high-performing workforce that contributes to the organization’s long-term success.
+# CODE-IN-PLACE-2026 | HARMONY
 
-Prerequisites
-1.	Python 3.9+ installed
-2.	Tesseract OCR installed
-o	Locate it in the project zip or folder:
+## Human Resource Automation and Management System
+
+**HARMONY (Human Resource Automation and Management System)** is an integrated Human Resource platform designed to automate and optimize workforce operations. The system streamlines recruitment, hiring, interview scheduling, employee management, training coordination, and workforce administration while ensuring efficient communication and process compliance.
+
+HARMONY helps organizations build a productive, engaged, and high-performing workforce through intelligent automation and decision support.
+
+---
+
+# Features
+
+- Automated candidate document processing
+- OCR-based text extraction from PDFs
+- Resume screening and candidate scoring
+- Automated interview scheduling
+- HR availability management
+- Email automation for candidate communication
+- Automated interview rescheduling
+- Structured CSV data generation
+- Multi-step recruitment workflow automation
+
+---
+
+# Prerequisites
+
+Before running the project, ensure the following are installed:
+
+- Python 3.9+
+- Pip configured in Environment Variables
+- Tesseract OCR
+
+### Install Tesseract OCR
+
+Locate the installer inside:
+
+```plaintext
 Tesseract-OCR\tesseract.exe
-o	Install it on your system.
-3.	Pip available in environment variables
+```
 
-Library Installation
-Open the project folder.
-Open a new terminal inside it.
-Run:
+Install it on your system.
+
+---
+
+# Installation
+
+Open the project folder and install dependencies:
+
+```bash
 pip install -r requirements.txt
+```
+
 Wait until all libraries are installed successfully.
 
- Mandatory Configuration
-1. Configure Tesseract Path
-Open folderscandidate.py
-Find in line 21:
+---
+
+# Mandatory Configuration
+
+## 1. Configure Tesseract Path
+
+Open:
+
+```plaintext
+folderscandidate.py
+```
+
+Update:
+
+```python
 TESSERACT_CMD = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
-Change it to the location where Tesseract after installing it on your system.
+```
 
-2. Configure Output Directory
-In folderscandidate.py, update line 15  :
-OUTPUT_DIRECTORY = r"C:\Users\gupta\...."
-Set this to the folder where you want processed candidate data and CSV files saved.
+Change the path to your installed Tesseract location.
 
-3. Configure Candidate Database Path
-Open main.py
-Update line around 173:
-CANDIDATE_DATA_DIR = r"C:\Users\gupta\.... "
-Change it to the folder where your processed candidate database and CSV files are stored.
+---
 
- Step 1: Candidate Folder Processing
+## 2. Configure Output Directory
+
+Open:
+
+```plaintext
+folderscandidate.py
+```
+
+Update:
+
+```python
+OUTPUT_DIRECTORY = r"C:\Users\YourPath"
+```
+
+Set the folder where processed candidate files and CSV outputs should be stored.
+
+---
+
+## 3. Configure Candidate Database Path
+
+Open:
+
+```plaintext
+main.py
+```
+
+Update:
+
+```python
+CANDIDATE_DATA_DIR = r"C:\Users\YourPath"
+```
+
+Set the folder containing processed candidate CSV files.
+
+---
+
+# Step 1: Candidate Folder Processing
+
 Run:
+
+```bash
 python folderscandidate.py
-The system will ask for the root folder of the candidate.
-The script will automatically:
-•	Detect PDF types (image-based or text-based)
-•	Extract text using OCR if needed
-•	Identify document categories:
-o	Aadhar
-o	PAN
-o	Resume
-o	Bank details
-•	Generate structured outputs
-•	Save extracted data into tabular CSV format
-All processed files will be saved into the configured output directory.
+```
 
- Step 2: Resume Screening & Interview Automation
+### Workflow
+
+The system prompts for the candidate root folder and automatically:
+
+- Detects PDF type (image-based or text-based)
+- Extracts text using OCR
+- Identifies document categories:
+  - Aadhaar
+  - PAN
+  - Resume
+  - Bank Details
+- Generates structured outputs
+- Exports extracted data into CSV format
+
+Processed files are saved to the configured output directory.
+
+---
+
+# Step 2: Resume Screening & Interview Automation
+
 Run:
+
+```bash
 python main.py
-The system will prompt for:
-•	Job description file (any format)
-•	Resume source:
-o	Either a root folder where CSVs are stored
-o	Or manual file selection
-The system will:
-•	Match resumes with job descriptions
-•	Score candidates
-•	Apply threshold logic
-o	Below threshold → rejection email
-o	Above threshold → selection flow
-You will be asked whether to:
-•	Automatically send emails
-•	Or only draft them
-If selected, the system schedules interviews based on HR availability.
+```
 
- Step 3: Automated Rescheduling System
+### Inputs
+
+- Job description file
+- Resume source:
+  - Candidate CSV folder
+  - Manual file selection
+
+### Processing
+
+The system:
+
+- Matches resumes with job descriptions
+- Scores candidates
+- Applies threshold logic:
+  - Below threshold → Rejection email
+  - Above threshold → Selection workflow
+
+### Email Options
+
+- Automatically send emails
+- Generate email drafts only
+
+Selected candidates proceed to automated interview scheduling.
+
+---
+
+# Step 3: Automated Rescheduling System
+
 Run:
-python rescheduler_handler.py
-This module:
-•	Automatically monitors incoming emails
-•	Detects candidate rescheduling requests
-•	Validates requested time against HR availability
-•	Sends responses automatically
-Logic includes:
-•	If HR is unavailable → candidate is asked to choose another slot
-•	If HR is available → new meeting link is automatically sent
-•	No manual mailbox handling is required
-This supports multi-layer rescheduling without human intervention.
 
+```bash
+python reschedule_handler.py
+```
 
+### Functionality
+
+The module automatically:
+
+- Monitors incoming emails
+- Detects rescheduling requests
+- Checks HR availability
+- Sends responses automatically
+
+### Rescheduling Logic
+
+- HR unavailable → Candidate selects another slot
+- HR available → New meeting link generated automatically
+
+No manual mailbox handling is required.
+
+---
+
+# Project Structure
+
+```plaintext
+CODE-IN-PLACE-2026/
+│
+├── folderscandidate.py
+├── main.py
+├── reschedule_handler.py
+├── requirements.txt
+├── Candidates/
+├── outputs/
+└── README.md
+```
+
+---
+
+# Future Enhancements
+
+- Dashboard Analytics
+- AI-based candidate ranking
+- Calendar integration
+- Multi-user HR support
+- Cloud deployment
+
+---
 
