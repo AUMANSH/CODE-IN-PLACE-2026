@@ -1,0 +1,6 @@
+spacy
+scikit-learn
+pymupdf
+python-docx
+pywin32
+pandas

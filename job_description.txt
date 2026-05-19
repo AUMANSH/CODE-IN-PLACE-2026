@@ -1,0 +1,11 @@
+Job Title: Python Developer
+Responsibilities:
+- Write effective, scalable code using Python.
+- Develop back-end components to improve responsiveness and overall performance.
+- Integrate user-facing elements into applications.
+Requirements:
+- Proven experience as a Python Developer.
+- Familiarity with testing tools.
+- Knowledge of JavaScript, HTML, CSS.
+- Experience with NLP libraries (Spacy, NLTK) is a plus.
+- Good problem-solving skills.

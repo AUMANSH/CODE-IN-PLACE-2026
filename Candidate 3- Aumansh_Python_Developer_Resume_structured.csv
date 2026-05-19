@@ -1,0 +1,35 @@
+Section,Sub-Field,Value
+Header,Content,Aumansh Gupta
+Header,Content,Python Developer
+Contact,Email,aumansh@example.com
+Summary,Content,Professional Summary
+Summary,Content,"Experienced Python Developer skilled in building scalable back-end systems, integrating user-facing"
+Summary,Content,"elements, and implementing NLP-based solutions using libraries such as SpaCy and NLTK. Strong"
+Summary,Content,problem-solving abilities with hands-on expertise in testing tools and front-end technologies.
+Skills,Content,Skills
+Skills,Content,"- Python, Django, Flask"
+Skills,Content,"- NLP: SpaCy, NLTK"
+Skills,Content,"- JavaScript, HTML, CSS"
+Skills,Content,"- REST APIs, Microservices"
+Skills,Content,"- PyTest, Unit Testing"
+Skills,Content,"- SQL, NoSQL Databases"
+Skills,Content,"- Git, CI/CD"
+Experience,Content,Professional Experience
+Experience,Content,Python Developer – SuccessR HR Tech Pvt Ltd
+Experience,Content,- Developed scalable Python-based back-end modules improving system performance.
+Experience,Content,- Integrated user-facing elements with server-side logic.
+Experience,Content,- Implemented NLP techniques for HR automation workflows.
+Experience,Content,- Collaborated with cross-functional teams to optimize application responsiveness.
+Experience,Content,Python & AI Intern – IBM
+Experience,Content,- Worked on emerging technologies and contributed to Python-based automation scripts.
+Experience,Content,- Participated in project management and agile development workflows.
+Projects,Content,Projects
+Projects,Content,Automated CV Shortlisting System
+Projects,Content,"Developed an AI–NLP based CV screening tool using SpaCy, NLTK, and ML pipelines. Extracted"
+Projects,Content,"candidate skills, matched them with job descriptions, and ranked profiles."
+Projects,Content,Intruder Detection Model (YOLO + CNN Hybrid)
+Projects,Content,"Built a combined deep learning architecture for object detection and classification using Google Colab,"
+Projects,Content,"TensorFlow, and OpenCV."
+Education,Content,Education
+Education,Content,Bachelor of Engineering in Computer Science
+Education,Content,AICTE-recognized internships including ISRO AGNIRVA Space Program

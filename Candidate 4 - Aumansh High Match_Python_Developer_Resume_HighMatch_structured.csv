@@ -1,0 +1,79 @@
+Section,Sub-Field,Value
+Header,Content,Aumansh Gupta
+Header,Content,Python Developer
+Contact,Email,your.email@example.com
+Summary,Content,Professional Summary
+Summary,Content,"Python Developer with proven experience as a Python Developer, focused on writing effective, scalable"
+Summary,Content,code using Python. Experienced in developing back-end components to improve responsiveness and
+Summary,Content,"overall performance, and integrating user-facing elements into applications. Familiar with testing tools,"
+Summary,Content,"JavaScript, HTML, and CSS. Hands-on exposure to NLP libraries such as SpaCy and NLTK. Strong"
+Summary,Content,"problem-solving skills applied to real-world AI/ML, automation, and web application projects."
+Skills,Content,Technical Skills
+Skills,Content,I
+Skills,Content,"Write effective, scalable code using Python (core Python, OOP, scripts, APIs)."
+Skills,Content,I
+Skills,Content,Develop back-end components to improve responsiveness and overall performance.
+Skills,Content,I
+Skills,Content,Integrate user-facing elements into applications using Python back-end and front-end tools.
+Skills,Content,I
+Skills,Content,"Proven experience as a Python Developer on academic, internship, and project work."
+Skills,Content,I
+Skills,Content,"Familiarity with testing tools: PyTest, unittest, basic integration testing."
+Skills,Content,I
+Skills,Content,"Knowledge of JavaScript, HTML, CSS for building and integrating user-facing elements."
+Skills,Content,I
+Skills,Content,"Experience with NLP libraries: SpaCy, NLTK for text preprocessing and classification."
+Skills,Content,I
+Skills,Content,"Good problem-solving skills: debugging, optimization, algorithmic thinking."
+Experience,Content,Professional Experience
+Experience,Content,Python Developer Intern – SuccessR HR Tech Pvt Ltd
+Experience,Content,"• Wrote effective, scalable code using Python for HR analytics modules and automation scripts."
+Experience,Content,• Developed back-end components to improve responsiveness and overall performance of internal
+Experience,Content,tools.
+Experience,Content,"• Integrated user-facing elements into applications by connecting HTML, CSS, and JavaScript"
+Experience,Content,interfaces with Python APIs.
+Experience,Content,• Used testing tools (PyTest and unittest) to validate back-end components and ensure code quality.
+Experience,Content,• Applied NLP libraries such as SpaCy and NLTK to extract skills and keywords from resumes.
+Experience,Content,Python & AI Intern – IBM
+Experience,Content,• Contributed as a Python Developer in a team using Python to build automation and data processing
+Experience,Content,pipelines.
+Experience,Content,• Helped develop back-end components that improved system responsiveness and performance.
+Experience,Content,• Participated in integrating user-facing dashboards with Python back-end services.
+Experience,Content,"• Collaborated in testing and debugging, using testing tools to verify features and fix issues."
+Experience,Content,Content Designer & Team Lead – TO-LET GLOBE COMPANY
+Experience,Content,"• Worked closely with developers to understand how user-facing elements in JavaScript, HTML, and"
+Experience,Content,CSS connect with back-end systems.
+Experience,Content,"• Improved clarity of requirements, helping better integration of user-facing elements into applications."
+Projects,Content,Selected Projects
+Projects,Content,Automated Interview Scheduling & CV Shortlisting System
+Projects,Content,• Built a Python-based system that shortlists and ranks hundreds of resumes based on a Job
+Projects,Content,Description (JD).
+Projects,Content,"• Wrote effective, scalable code using Python to process multiple CVs and compute similarity scores."
+Projects,Content,• Developed back-end components to improve responsiveness and overall performance of the ranking
+Projects,Content,engine.
+Projects,Content,• Integrated a simple user-facing interface into the application and connected it with Python back-end
+Projects,Content,logic.
+Projects,Content,"• Used NLP libraries (SpaCy, NLTK) to match candidate skills to job descriptions."
+Projects,Content,Intruder Detection Model (YOLO + CNN Hybrid)
+Projects,Content,"• Implemented Python code for deep learning models, focusing on performance and scalability."
+Projects,Content,• Designed back-end processing pipelines that handle image input and model inference efficiently.
+Projects,Content,Network Traffic Analysis & Classification
+Projects,Content,• Created Python scripts and models to classify network traffic and analyze performance metrics.
+Projects,Content,"• Applied good problem-solving skills to tune models, handle data imbalance, and interpret results."
+Projects,Content,Alignment with Job Description
+Projects,Content,Responsibilities:
+Projects,Content,"• Write effective, scalable code using Python for back-end services and automation."
+Projects,Content,• Develop back-end components to improve responsiveness and overall performance of applications.
+Projects,Content,"• Integrate user-facing elements into applications by connecting JavaScript, HTML, and CSS front-end"
+Projects,Content,with Python back-end.
+Projects,Content,Requirements:
+Projects,Content,• Proven experience as a Python Developer through internships and multiple Python projects.
+Projects,Content,"• Familiarity with testing tools (PyTest, unittest) for unit and integration testing."
+Projects,Content,"• Knowledge of JavaScript, HTML, CSS for working with and integrating user-facing elements."
+Projects,Content,"• Experience with NLP libraries (SpaCy, NLTK) applied to resume parsing and text analysis."
+Projects,Content,"• Good problem-solving skills demonstrated in AI/ML, network analysis, and automation projects."
+Education,Content,Education
+Education,Content,Bachelor of Engineering in Computer Science
+Education,Content,• AICTE-recognized internships including ISRO–AGNIRVA Space Internship Program and IBM
+Education,Content,internship.
+Education,Content,"• Academic projects in Python, Machine Learning, Deep Learning, NLP, and Computer Vision."

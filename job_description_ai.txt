@@ -1,0 +1,66 @@
+Job Title: AI / Machine Learning Engineer (Graduate / Early Career)
+Job Summary
+
+We are seeking a motivated and technically strong AI/ML Engineer to design, develop, and deploy scalable machine learning solutions. The role involves working on real-world AI systems across computer vision, NLP, federated learning, and data engineering. The ideal candidate has hands-on experience with modern ML frameworks, privacy-preserving learning techniques, and end-to-end pipeline development, gained through internships and applied industry projects. 
+
+Key Responsibilities
+
+Design, train, evaluate, and optimize machine learning and deep learning models for real-world applications.
+
+Develop computer vision solutions using CNNs and object detection models such as YOLOv8.
+
+Implement privacy-preserving and secure machine learning techniques, including federated learning and encrypted aggregation (BFV, CKKS).
+
+Build and maintain scalable data pipelines for model training, validation, and deployment.
+
+Apply feature engineering, hyperparameter tuning, and model optimization to improve accuracy and inference performance.
+
+Develop and integrate NLP solutions, including chatbots and prompt-based systems, using modern frameworks.
+
+Collaborate with cross-functional teams in agile environments to translate business requirements into AI-driven solutions.
+
+Document models, pipelines, and experiments clearly for maintainability and knowledge transfer.
+
+Required Skills & Qualifications
+
+Bachelor’s degree in Computer Engineering, Computer Science, or a related field.
+
+Strong programming skills in Python with hands-on experience in ML/DL workflows.
+
+Experience with machine learning and deep learning libraries such as TensorFlow, Keras, and scikit-learn.
+
+Practical knowledge of CNNs, DNNs, and object detection frameworks (YOLOv8).
+
+Understanding of federated learning, secure aggregation, and privacy-aware ML systems.
+
+Proficiency in SQL and experience with data engineering concepts and pipeline optimization.
+
+Familiarity with NLP, prompt engineering, and tools such as LangChain or IBM Watsonx.
+
+Experience working in cloud or hybrid environments (AWS preferred).
+
+Strong analytical, problem-solving, and debugging skills.
+
+Preferred Qualifications
+
+Internship or project experience in AI/ML engineering, data science, or applied research roles.
+
+Exposure to federated learning with encryption schemes such as BFV and CKKS.
+
+Experience building production-oriented ML pipelines or real-time inference systems.
+
+Knowledge of agile development practices and collaborative engineering workflows.
+
+What You’ll Work On
+
+Computer vision systems for surveillance, detection, and classification.
+
+Secure and privacy-preserving AI systems for distributed learning environments.
+
+NLP-driven automation tools and intelligent assistants.
+
+Data engineering pipelines supporting large-scale ML workloads.
+
+Location
+
+Bengaluru, India (Hybrid / On-site depending on project needs)
