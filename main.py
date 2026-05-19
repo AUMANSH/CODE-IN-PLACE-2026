@@ -170,7 +170,7 @@ def main():
 
     # --- Configuration for CSVs ---
     # This matches the OUTPUT_DIRECTORY in folderscandidate.py (default location)
-    CANDIDATE_DATA_DIR = r"C:\Users\gupta\OneDrive - DYNE TECH AI PRIVATE LIMITED\Automated Interview Scheduling System - Version 2"
+    CANDIDATE_DATA_DIR = r"C:\Users\gupta\...."
     
     # --- Resume Selection Logic ---
     resumes_to_process = []
