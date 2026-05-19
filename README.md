@@ -1,11 +1,2 @@
-# CODE-IN-PLACE-2026
-Human Resource Management Tool, which refers to the strategic
-management of an organization's people to help them achieve business goals and reach
-their full potential.
-
-This involves a wide range of activities, including recruiting, hiring, training,
-compensating, and retaining employees, as well as managing workplace policies and
-ensuring legal compliance.
-
-The goal is to build a motivated and high-performing workforce that drives the
-organization's success.
+# CODE-IN-PLACE-2026 HARMONY
+HARMONY (Human Resource Automation and Management System) is an integrated human resource management platform designed to streamline and optimize workforce operations. It supports essential HR functions including recruitment, hiring, interview scheduling, employee management, training coordination, and workforce administration while ensuring efficient communication and compliance. The system aims to create a productive, engaged, and high-performing workforce that contributes to the organization’s long-term success.
