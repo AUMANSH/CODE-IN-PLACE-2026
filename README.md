@@ -25,13 +25,13 @@ Change it to the location where Tesseract after installing it on your system.
 
 2. Configure Output Directory
 In folderscandidate.py, update line 15  :
-OUTPUT_DIRECTORY = r"C:\Users\gupta\OneDrive - DYNE TECH AI PRIVATE LIMITED\Automated Interview Scheduling System - Version 2"
+OUTPUT_DIRECTORY = r"C:\Users\gupta\...."
 Set this to the folder where you want processed candidate data and CSV files saved.
 
 3. Configure Candidate Database Path
 Open main.py
 Update line around 173:
-CANDIDATE_DATA_DIR = r"C:\Users\gupta\OneDrive - DYNE TECH AI PRIVATE LIMITED\Automated Interview Scheduling System - Version 2"
+CANDIDATE_DATA_DIR = r"C:\Users\gupta\.... "
 Change it to the folder where your processed candidate database and CSV files are stored.
 
  Step 1: Candidate Folder Processing
